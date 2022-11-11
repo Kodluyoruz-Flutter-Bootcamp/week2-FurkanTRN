@@ -1,0 +1,12 @@
+/home/furkan/Documents/Projects/week2-FurkanTRN/library_system/build/linux/x64/debug/bundle/library_system
+/home/furkan/Documents/Projects/week2-FurkanTRN/library_system/build/linux/x64/debug/bundle/data/icudtl.dat
+/home/furkan/Documents/Projects/week2-FurkanTRN/library_system/build/linux/x64/debug/bundle/lib/libflutter_linux_gtk.so
+/home/furkan/Documents/Projects/week2-FurkanTRN/library_system/build/linux/x64/debug/bundle/data/flutter_assets/kernel_blob.bin
+/home/furkan/Documents/Projects/week2-FurkanTRN/library_system/build/linux/x64/debug/bundle/data/flutter_assets/assets/images/book.jpeg
+/home/furkan/Documents/Projects/week2-FurkanTRN/library_system/build/linux/x64/debug/bundle/data/flutter_assets/shaders/ink_sparkle.frag
+/home/furkan/Documents/Projects/week2-FurkanTRN/library_system/build/linux/x64/debug/bundle/data/flutter_assets/AssetManifest.json
+/home/furkan/Documents/Projects/week2-FurkanTRN/library_system/build/linux/x64/debug/bundle/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+/home/furkan/Documents/Projects/week2-FurkanTRN/library_system/build/linux/x64/debug/bundle/data/flutter_assets/FontManifest.json
+/home/furkan/Documents/Projects/week2-FurkanTRN/library_system/build/linux/x64/debug/bundle/data/flutter_assets/NOTICES.Z
+/home/furkan/Documents/Projects/week2-FurkanTRN/library_system/build/linux/x64/debug/bundle/data/flutter_assets/version.json
+/home/furkan/Documents/Projects/week2-FurkanTRN/library_system/build/linux/x64/debug/bundle/data/flutter_assets/fonts/MaterialIcons-Regular.otf
