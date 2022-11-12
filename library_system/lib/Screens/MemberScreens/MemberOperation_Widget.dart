@@ -1,4 +1,4 @@
-// ignore_for_file: prefer_const_constructors
+// ignore_for_file: prefer_const_constructors, camel_case_types, unused_import
 import 'dart:ffi';
 import 'package:date_format/date_format.dart';
 import 'package:intl/intl.dart';
@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 import 'MemberDetailWidget.dart';
 import 'package:library_system/Models/Member.dart';
 import '../../Enum/MemberType.dart';
-import 'package:library_system/Tools/DateTimeFormat.dart' as dateFormatter;
+import '../../Tools/DateTimeFormat.dart' as dateFormatter; // Tarihi memberin içine Datetime olarak gidiyor ama ekranda gösterirken anlaşılır kılmak için küütphane kullandım ve bunu metotlaştırdım.
 
 class MemberOperation_Widget extends StatefulWidget {
   const MemberOperation_Widget({super.key});
@@ -22,8 +22,8 @@ class _MemberOperation_WidgetState extends State<MemberOperation_Widget> {
   TextEditingController mbPhone = TextEditingController();
   TextEditingController mbOfStartDate = TextEditingController();
   List<Member> lstMember = <Member>[];
-  int id = 1;
-  MemberType? selectedMbType = MemberType.Starter;
+  int id = 1; // Üye no int tipine çevrildi ve in-memory olarak otomatik arttırma yapıyor.
+  MemberType? selectedMbType = MemberType.Starter; // Bunun belirtilmesinin sebebi dropdown buttona member tipini yazdırmak.
 
   @override
   Widget build(BuildContext context) {
@@ -78,9 +78,9 @@ class _MemberOperation_WidgetState extends State<MemberOperation_Widget> {
                       padding: const EdgeInsets.all(8.0),
                       child: ElevatedButton(
                         onPressed: saveMember,
-                        child: Text("Kaydet"),
                         style: ElevatedButton.styleFrom(
                             backgroundColor: Colors.purple),
+                        child: Text("Kaydet"),
                       ),
                     ),
                     lstMember.isNotEmpty
@@ -122,7 +122,7 @@ class _MemberOperation_WidgetState extends State<MemberOperation_Widget> {
   }
 
   saveMember() {
-    Member member = new Member();
+    Member member = Member();
     member.memberNumber = id;
     member.firstName = mbName.text.toString();
     member.lastName = mbLastName.text.toString();
@@ -142,7 +142,7 @@ class _MemberOperation_WidgetState extends State<MemberOperation_Widget> {
     });
   }
 }
-
+// kolay widget oluşturmak için fonksiyon yazıldı
 Widget createField(
     TextEditingController txcontroller, String? hnText, double padValue) {
   return Padding(

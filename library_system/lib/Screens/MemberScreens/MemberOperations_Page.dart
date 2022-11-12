@@ -1,3 +1,5 @@
+// ignore_for_file: camel_case_types, unused_import, implementation_imports
+
 import 'package:flutter/material.dart';
 import 'package:flutter/src/widgets/framework.dart';
 import 'package:library_system/Models/Member.dart';
@@ -9,6 +11,6 @@ class MemberOperations_Page extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MemberOperation_Widget();
+    return const MemberOperation_Widget();
   }
 }
